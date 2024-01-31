@@ -10,9 +10,9 @@ document that helps the team organize and prioritize work items!.
 
 As a user, I want to see the title of the page.
 
-- There is a clear title on the page
+- There is a clear title on the page.
 
-As a user, I want to ses the logo of the website
+As a user, I want to ses the logo of the website.
 
 - There is the logo of the website
 
