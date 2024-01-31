@@ -1,10 +1,10 @@
-# Name of project
+# My Portfolio
 
-> A longer description
+This project was about me creating my portfolio
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [My portfolio](https://xamwell2.github.io/My-Portfolio/)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,43 +22,41 @@
 
 ## General info
 
-> A short description
+The main aim of this project was about me creating my portfolio using html for the
+structure and overall improve my html skill.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot]()
 
 ## Technologies
 
-- Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
+- git & github
 
 ## Setup
 
-- `npm run start`
+- Clone the Repo
+- `npm run install`
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```Html
+<h1>Portfolio</h1>//
 ```
+
+![Code Example](./planning/Img/code.png)
 
 ## Features
 
 List of features ready and Todos for future development
 
--
--
--
-
-To-do list:
-
--
--
+- Title
+- Navigation
+- Skills
+- Contact
 
 ## Status
 
@@ -70,7 +68,7 @@ Project by freeCodeCamp.org
 
 ## Contact
 
-By [Name]
+- [Samuel](https://github.com/xamwell2)
 
 ## Instructions for use
 
