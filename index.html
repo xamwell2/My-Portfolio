@@ -1,12 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="./img/S.jpg">
+</head>
+
+<body>
+  <nav class="nav" id="id" id="home">
+    <div class="nav-center">
+
+      <div class="nav-header">
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div>
+        <ul class="nav-links">
+          <li>
+            <a href="#index">Home</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <aside class="sidebar" id="sidebar">
+    <div>
+      <button class="close-btn" id="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <!-- nav-links -->
+
+      <ul class="sidebar-links">
+        <li>
+          <a href="#indexl" onclick="getElementById('close-btn').click()">Home</a>
+        </li>
+        <li>
+          <a href="#About" onclick="getElementById('close-btn').click()">About</a>
+        </li>
+        <li>
+          <a href="#Skills" onclick="getElementById('close-btn').click()">Skills</a>
+        </li>
+        <li>
+          <a href="#Contact" onclick="getElementById('close-btn').click()">Contact</a>
+        </li>
+      </ul>
+
+      <ul class="social-icons">
+        <li>
+          <a href="https://twitter.com/poly_obibini" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/samuel-boahen-785132269/" target="_blank" rel="noopener noreferrer"
+            class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/xamwell2" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/obibiniii/" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- sidebar -->
+  <!-- header -->
+  <header class="hero">
+    <div class="section-center hero-center">
+      <article class="hero-info">
+        <div class="underline"></div>
+        <h1>I'm Samuel </h1>
+        <h4>Web Developer And Designer</h4>
+        <a href="#Contact" class="btn hero-btn">Contact me</a>
+        <!-- social icons -->
+        <ul class="social-icons hero-icons">
+          <li>
+            <a href="https://twitter.com/poly_obibini" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/samuel-boahen-785132269/" target="_blank" rel="noopener noreferrer"
+              class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/xamwell2i" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/obibiniii/" target="_blank" rel="noopener noreferrer"
+              class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </article>
+
+      <article class="hero-img">
+        <img src="./img/Samuel_.png" class="hero-photo" loading="lazy" alt="Samuel Boahen" />
+      </article>
+    </div>
+  </header>
+
+  <!-- end of header -->
+  <!-- about -->
+  <section class="section about" id="about">
+    <div class="section-center about-center">
+    </div>
+  </section>
+</body>
+
 </html>
