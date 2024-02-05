@@ -897,3 +897,20 @@ p {
     column-gap: 1.2rem;
   }
 }
+
+.timeline-center {
+  width: 80vw;
+  max-width: 40rem;
+}
+
+.timeline-item {
+  border-top: 2px dashed var(--clr-secondary);
+  margin: 0;
+  padding: 4rem 2rem;
+  position: relative;
+}
+
+.timeline p {
+  margin-bottom: 0;
+  color: var(--clr-white);
+}
