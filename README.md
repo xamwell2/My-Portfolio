@@ -27,7 +27,7 @@ structure and overall improve my html skill.
 
 ## Screenshots
 
-![Example screenshot]()
+![Example screenshot](./planning/img-planning/website.png)
 
 ## Technologies
 
@@ -47,7 +47,7 @@ structure and overall improve my html skill.
 <h1>Portfolio</h1>//
 ```
 
-![Code Example](./planning/Img/code.png)
+![Code Example](./planning/img-planning/code.png)
 
 ## Features
 
